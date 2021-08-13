@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+/*
+TITLE
+*/
+
+.title-big {
+  font-size: 1.5em;
+  color: #3e924f;
+  font-weight: bold;
+}
+
+.title-medium {
+  font-size: 1.5em;
+  color: #3e924f;
+  font-weight: bold;
+}
+
+.title-small {
+  font-size: 1em;
+  color: #3e924f;
+  font-weight: bold;
+}
+
+/*
+CARD
+*/
+
+.App-card {
+  max-width: 240px;
+  margin: 8px;
+  overflow: hidden;
+}
+
+.App-card img {
+  height: 320px;
+  object-fit: cover;
+}
+
+@media (max-width: 560px) {
+  .App-card {
+      width: 46%;
+      margin: 2%;
+      overflow: hidden;
+  }
+
+  .App-card img {
+      height: 240px;
+  }
+}
+
+/*
+SIDEBAR
+*/
+
+
+.App-sidebar {
+  display: flex;
+  background-color: #61dafb;
+}
+
+/*
+SPACER
+*/
+
+.App-spacer {
+  width: 16px;
+}
+
+@media (max-width: 560px) {
+  .App-spacer {
+      width: 0px;
+  }
+}
+
+
